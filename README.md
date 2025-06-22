@@ -2,9 +2,6 @@
 
 Recipe-Finder-Assistant is an AI-powered assistant that helps users find recipes, answer cooking-related questions, and provide up-to-date information using Retrieval-Augmented Generation (RAG), LLMs, and web search.
 
-## Demo Video 
-![Recipe]("RecipeFinder.mp4")
-
 ## Features
 
 - **Recipe Search:** Extracts and retrieves recipes from a PDF cookbook using semantic search.
