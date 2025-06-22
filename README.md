@@ -15,7 +15,17 @@ Recipe-Finder-Assistant is an AI-powered assistant that helps users find recipes
 
 ## Project Structure
 
-. ├── main.py ├── requirements.txt ├── .env ├── agents/ │ ├── __init__.py │ ├── llm.py │ ├── rag.py │ └── webSearchAgent.py ├── data/ │ └── recipe.pdf ├── RecepieEnv/ │ └── ... (environment files) └── README.md
+. ├── main.py
+  ├── requirements.txt 
+  ├── .env 
+  ├── agents/ │ 
+    ├── __init__.py │ 
+    ├── llm.py │ 
+    ├── rag.py 
+    │-- webSearchAgent.py 
+  ├── data/ 
+    │ ── recipe.pdf  
+  │── README.md
 
 
 ## Setup
@@ -29,9 +39,13 @@ Recipe-Finder-Assistant is an AI-powered assistant that helps users find recipes
    pip install -r requirements.txt
 
 3. **Set up environment variables:**  
-     Create a .env file with your API keys: <vscode_annotation details='%5B%7B%22title%22%3A%22hardcoded-credentials%22%2C%22description%22%3A%22Embedding%20credentials%20in%20source%20code%20risks%20unauthorized%20access%22%7D%5D'> </vscode_annotation> ``` HF_TOKEN=your_huggingface_token GROQ_API_KEY=your_groq_api_key TAVILY_API_KEY=your_tavily_api_key LANGCHAIN_API_KEY=your_langchain_api_key
+     Create a .env file with your API keys:
+       HF_TOKEN=your_huggingface_token
+       GROQ_API_KEY=your_groq_api_key
+       TAVILY_API_KEY=your_tavily_api_key
+       LANGCHAIN_API_KEY=your_langchain_api_key
 
-4. **Add your recipe PDF:**
+5. **Add your recipe PDF:**
    Place your cookbook PDF in the data/ directory as recipe.pdf.
 
 ## Usage
