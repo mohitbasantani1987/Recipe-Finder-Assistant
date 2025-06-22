@@ -1,8 +1,9 @@
-# Recipe-Finder-Assistant
+# 🍲 Recipe-Finder-Assistant
 
 Recipe-Finder-Assistant is an AI-powered assistant that helps users find recipes, answer cooking-related questions, and provide up-to-date information using Retrieval-Augmented Generation (RAG), LLMs, and web search.
 
-## Demo Link - 
+## Demo Video 
+<video controls src="RecipeFinder.mp4" title="Title"></video>
 
 ## Features
 
@@ -60,6 +61,9 @@ Recipe-Finder-Assistant is an AI-powered assistant that helps users find recipes
   - **LLM:** For general or basic cooking questions.
   - **Web Search:** For recent or trending topics.
 - **Validation:** Each answer is validated for relevance before being shown to the user.
+
+## Output Graph
+![alt text](Graph.png)
 
 ## Dependencies
 
